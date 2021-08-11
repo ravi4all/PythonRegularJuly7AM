@@ -11,3 +11,6 @@ data = {
 3. Show the employees who lives in delhi and earn more than 40000
 4. Calculate average salary of employees of HR department
 '''
+for i in range(len(data['names'])):
+    if data["dept"][i] == "IT":
+        print(data["names"][i], data["dept"][i], data["address"][i])
