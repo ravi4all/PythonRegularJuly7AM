@@ -1,0 +1,29 @@
+File Handling
+
+read/write
+
+text
+byte - image, audio, video
+
+modes for text
+r - read
+w - write - if file exists then it overwrites the file else create a new file and write it
+a - append - it will not overwrite the file, it will append the data in file
+x - write - it will always create a new file than write, if file already exists than it will show error
+
+Open File
+Read/Write
+Close File
+
+modes for binary/bytes
+rb
+wb
+ab
+xb
+
+r+
+w+
+a+
+x+
+
+
